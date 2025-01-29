@@ -1,0 +1,45 @@
+.hero {
+    background-color:var(--verde-claro-fundo);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    gap: 25px;
+}
+
+.heroText h1 {
+    color: var(--cor-escura-fonte);
+    font-size: 64px;
+}
+
+.heroText p {
+    color: var(--cinza-neutro);
+    font-size: 16px;
+}
+
+.heroTextDestaque {
+    color:var(--verde-principal) ;
+}
+
+.heroTextPrincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heroBotao {
+    background-color: var(--verde-principal);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: var(--branco);
+}
