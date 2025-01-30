@@ -1,0 +1,12 @@
+.helping_container {
+    background-color: var(--verde-claro-fundo);
+    padding: 30px;
+}
+
+.helping_title h3{
+    font-size: 28px;
+}
+
+.helping_title strong{
+    color: var(--verde-principal);
+}
