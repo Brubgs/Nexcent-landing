@@ -1,0 +1,44 @@
+.clients_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients_logos img {
+    margin: 50px;
+}
+
+.manage_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.manage_card {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 5px;
+    padding: 24px 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.manage_card img{
+    max-width: 30%;
+}
+.manage_card h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.manage_card p{
+    font-size: 16px;
+}
+
+
