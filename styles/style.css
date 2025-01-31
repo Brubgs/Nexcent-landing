@@ -17,6 +17,10 @@ p {
     color: var(--cinza-neutro);
 }
 
+h2 {
+    color: var(--cor-escura-fonte);
+}
+
 :root {
     --branco: #fff;
     --verde-principal: #15972f;
